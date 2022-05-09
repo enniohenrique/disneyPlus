@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: url(/img/background.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.container {
+    margin: 4rem 12.6rem 17rem 7.6rem;
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo img {
+    width: 13rem;
+    height: 7.4rem;
+}
+
+header .menu img {
+    width: 4.6rem;
+    height: 2.7rem;
+}
+
+main {
+    margin-top: 5.7rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+section .info {
+    padding-top: 14.1rem;                
+}
+
+.imdb {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+
+.imdb span {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.data-lançamento {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.titulo img {
+    padding: 5rem 0 3rem 0;
+}
+
+.sinopse {
+    max-width: 40rem;
+    padding-bottom: 4rem;
+}
+
+.sinopse p {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 25rem;
+    height: 7rem;
+  
+    border: none;
+    border-radius: 5rem;
+    background: linear-gradient(154.23deg, #0f3a7b -58.45%, #0cffff 374.49%);
+    box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
+  
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #fff;
+  
+    gap: 3rem;
+}
+
+section .filmes {
+    display: flex;
+    flex-direction: column;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+section h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    padding-bottom: 3rem;
+}
+
+.filmes-player {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    background-image: url(/img/video-thumbnail-1.jpg);
+    background-repeat: no-repeat;
+    width: 26.5rem;
+    height: 14.9rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.thumbnail  img {
+    content: "";
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 5.76rem;
+    left: 11.5rem;
+}
+
+.texto-filme {
+    position: absolute;
+    z-index: 3;
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 1.6rem 0.6rem;
+}
+
+.texto-filme h3:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;    
+}
+
+.texto-filme h3:nth-child(2) {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;    
+}
+
+#thumb-1 {
+
+}
