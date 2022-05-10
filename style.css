@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    overflow: hidden;
 }
 
 body {
@@ -14,11 +13,12 @@ body {
     height: 100vh;
     color: #fff;
     font-size: 1.6rem;
+    overflow: hidden;
+
 }
 
 .container {
     margin: 4rem 12.6rem 17rem 7.6rem;
-    border: 1px solid red;
 }
 
 header {
@@ -112,7 +112,44 @@ section .filmes {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow-y: scroll;
+    height: 70rem;
 }
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .filmes::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  .filmes::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  .filmes::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  .filmes::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  .filmes::-webkit-scrollbar-track {
+    background: #bfbfbf;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+  }
+  .filmes::-webkit-scrollbar-track:hover {
+    background: #bfbfbf;
+  }
+  .filmes::-webkit-scrollbar-track:active {
+    background: #ffffff;
+  }
+  .filmes::-webkit-scrollbar-corner {
+    background: transparent;
+  }
 
 section h2{
     font-size: 2.8rem;
@@ -126,12 +163,14 @@ section h2{
     flex-direction: column;
     gap: 3rem;
 
-    background-image: url(/img/video-thumbnail-1.jpg);
     background-repeat: no-repeat;
     width: 26.5rem;
     height: 14.9rem;
     border-radius: 0.8rem;
     position: relative;
+    margin-right: 4rem;
+
+    min-height: 15rem;
 }
 
 .thumbnail {
@@ -165,11 +204,20 @@ section h2{
 }
 
 .texto-filme h3:nth-child(2) {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     font-weight: 500;
     line-height: 2rem;    
 }
 
 #thumb-1 {
-
+    background: url(/img/video-thumbnail-1.jpg);
+}
+#thumb-2 {
+    background: url(/img/video-thumbnail-2.jpg);
+}
+#thumb-3 {
+    background: url(/img/video-thumbnail-3.jpg);
+}
+#thumb-4 {
+    background: url(/img/video-thumbnail-4.jpg);
 }
