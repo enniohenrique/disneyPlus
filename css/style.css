@@ -7,7 +7,7 @@
   
   body {
     font-family: "Montserrat", sans-serif;
-    background: url(/images/background.jpg) no-repeat;
+    background: url(/img/background.jpg) no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -209,18 +209,18 @@
   }
   
   #thumb-1 {
-    background: url(/images/video-thumbnail-1.jpg);
+    background: url(/img/video-thumbnail-1.jpg);
   }
   
   #thumb-2 {
-    background: url(/images/video-thumbnail-2.jpg);
+    background: url(/img/video-thumbnail-2.jpg);
   }
   
   #thumb-3 {
-    background: url(/images/video-thumbnail-3.jpg);
+    background: url(/img/video-thumbnail-3.jpg);
   }
   
   #thumb-4 {
-    background: url(/images/video-thumbnail-4.jpg);
+    background: url(/img/video-thumbnail-4.jpg);
   }
   
